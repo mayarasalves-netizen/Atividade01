@@ -1,0 +1,169 @@
+body {
+    
+    background-color: rgb(230, 215, 169);
+    margin: 0;
+     color: rgb(0, 0, 0);
+     text-align: center;
+}
+ 
+header {
+    background-color: #854646;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 45px;
+    margin: 0;
+}
+header p {
+    font-size: 18px;
+}
+ nav {
+    background-color: #6b3737;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+ }
+ nav a {
+    color:rgb(165, 88, 33);
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+ }
+
+ nav a:hover {
+    color:#881e1e
+ }
+
+ main {
+    max-width: 1000xp;
+    margin: auto;
+    padding: 20px;
+ }
+
+ section {
+    margin-bottom: 60px;
+
+ }
+
+ section h2 {
+    color:rgb(165, 88, 33);
+    border-bottom: 2px solid rgb(165, 88, 33);
+    padding-bottom: 10px;
+ }
+ .banner img {
+    display:block;
+    border-radius: 15px;
+    
+ }
+ .Cardápio {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+ }
+.card {
+    background-color:#854646;
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+    text-align: center;
+}
+.card img {
+    width: 80%;
+    border-radius: 15px;
+}
+.card:hover {
+    background-color: rgb(165, 88, 33);
+    transform: scale (1.05);
+}
+.botao {
+    background-color:hwb(4 18% 52%);
+    color:rgb(0, 0, 0);
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.botao:hover {
+    background-color:#7a5a5a;
+}
+footer {
+    background-color:hwb(4 18% 52%);
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+} 
+form{
+    padding:20px;
+    background-color:oklch(45.047% 0.08999 21.25);
+    border-radius:15px;
+}
+label,
+legend {
+    font-weight: bold;
+}
+input,select,textarea,button {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+input[type=radio],input[type=checkbox] {
+    display: inline;
+    width: auto;
+    margin: 0 10px 0 0;
+}
+input[type="text"], input[type="email"],input[type="date"], select, textarea {
+
+    background-color:rgb(230, 215, 169);
+    color:rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius:5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    min-height: 100px;
+}
+fieldset {
+    margin-bottom: 12px;
+    border: 1px rgb(0, 0, 0);
+
+}
+.opcao {
+    font-weight: normal;
+}
+.botoes {
+    margin-top: 20px;
+}
+button,
+.botao {
+    background-color:rgb(209, 191, 139);
+    color: black;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius:8px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+button:hover,
+.botao:hover {
+    background-color:#881e1e;
+}
+audio,
+video {
+    max-width: 50% ;
+    max-height: 50%;
+    width: 100%;
+    background-color:: rgb(230, 215, 169);
+}
+code {
+    color: rgb(165, 88, 33)
+}
+
+
